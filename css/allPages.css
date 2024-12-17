@@ -1,0 +1,15 @@
+body{
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+}
+.logo2{
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    width: 150px;
+}
+/* *{
+    margin: 0;
+    padding: 0;
+} */

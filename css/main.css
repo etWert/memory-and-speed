@@ -1,0 +1,46 @@
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+button {
+    height: 40px;
+    width: 100px;
+    border-radius: 30px;
+    background-color: rgb(21, 192, 192);
+}
+
+.twoBtn {
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.welcome {
+    width: 500px;
+    position: absolute;
+    top: 10vh;
+    animation: welcome 4s ease-in-out 0.3s 10000 normal forwards;
+}
+
+@keyframes welcome {
+
+    33% {
+        transform: scale(150%, 150%);
+
+    }
+}
+
+img {
+    width: 200px;
+}

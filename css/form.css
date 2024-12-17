@@ -1,0 +1,55 @@
+body {
+    background-color: black;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+label {
+    font-size: 30px;
+    color: rgb(21, 192, 192);
+    margin-top: 20px;
+
+}
+
+input {
+    height: 40px;
+    width: 300px;
+    border-radius: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+
+button {
+    height: 40px;
+    width: 100px;
+    border-radius: 30px;
+    background-color: rgb(21, 192, 192);
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.circles {
+    display: flex;
+}
+
+.circles img {
+    width: 100px;
+}
+.eror{
+    color: red;
+    font-size: 15px;
+    text-align: center;
+    width: 300px;
+}
